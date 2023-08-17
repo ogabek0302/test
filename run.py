@@ -62,9 +62,6 @@ for item in data:
 session.commit()
 
 
-# Продолжение предыдущего кода
-
-# Извлекаем все предложения (offers) из базы данных
 all_offers = session.query(Offer).all()
 
 for offer in all_offers:
